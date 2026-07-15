@@ -158,35 +158,30 @@ button {
 /* ---------------------------------------
     SECTION DU  Main
     -------------------------------------*/
-.sct {
-  background-color: rgb(88, 250, 55);
-  padding: 45px;
-  margin: 45px;
-  margin-bottom: 30px;
-  border-radius: 10px;
-  border: 1px solid rgb(198, 206, 212);
-  box-shadow: 0 4px 10px rgba(210, 57, 57, 0.08);
+.section-main {
+  background-color: black;
+}
+
+.section-main h2{
+  color: white;
+  font-size: 40px;
+  font-weight: 400;
+
+}
+
+.grid-article{
   display: grid;
-  justify-content: space-evenly;
-
-  grid-template-areas:
-    "item1 item6 item2"
-    "item3 item4 item5";
-
-  gap: 30px 62px;
+  
+  
 }
 
-.sct-wrapper-title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 
 /* ---------------------------------------
     Différnet article
     -------------------------------------*/
 .item1 {
-  grid-area: item1;
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -195,7 +190,7 @@ button {
 }
 
 .item2 {
-  grid-area: item2;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -204,7 +199,7 @@ button {
 }
 
 .item3 {
-  grid-area: item3;
+  
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -213,7 +208,7 @@ button {
 }
 
 .item4 {
-  grid-area: item4;
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
