@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: black;
 }
 
 header {
@@ -124,10 +124,9 @@ button {
   align-items: center;
   width: 45%;
   padding: 30px;
-  margin-top: 40px;
+  margin-top: 40gpx;
   background: black;
   border: 1px solid rgba(255, 255, 255, 0.4); 
-  /* box-shadow: 0 4px 30px rgba(255, 255, 255, 0.662); */
   border-radius: 25px;
 
   color: white;
