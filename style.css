@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: black;
 }
 
 header {
@@ -166,12 +166,14 @@ button {
   color: white;
   font-size: 40px;
   font-weight: 400;
+  margin-bottom: 25px;
 
 }
 
 .grid-article{
   display: grid;
-  
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px 20px;
   
 }
 
@@ -221,7 +223,7 @@ button {
 }
 
 .item5 {
-  grid-area: item5;
+  
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -229,13 +231,6 @@ button {
   gap: 25px;
 }
 
-h1 {
-  text-align: center;
-  font-size: 90px;
-  line-height: 1;
-  font-weight: 700;
-  grid-area: item6;
-}
 
 .item1,
 .item2,
@@ -254,6 +249,10 @@ h1 {
   padding: 20px;
 
   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.12);
+}
+
+.type-article{
+  color: black;
 }
 
 /* --------------------------------------
