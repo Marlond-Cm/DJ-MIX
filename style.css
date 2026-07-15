@@ -292,3 +292,176 @@ footer {
   margin-top: 40px;
 }
 
+
+/* ==========================================
+   RESPONSIVE MOBILE
+   320px à 767px
+========================================== */
+
+@media screen and (max-width: 767px) {
+
+  .Navbar {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .logo {
+    font-size: 35px;
+    margin-left: 0;
+  }
+
+  .nav-image {
+    height: 80px;
+  }
+
+  .navig ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .navig ul li {
+    display: block;
+    padding: 0;
+  }
+
+  .navig ul li a {
+    font-size: 20px;
+  }
+
+  .btn {
+    margin: 0;
+    width: 180px;
+  }
+
+  .Hero {
+    padding: 40px 20px;
+  }
+
+  .h1-fontome {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .ate {
+    width: 95%;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .ate p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .section-main h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .section-main h3 {
+    font-size: 24px;
+  }
+
+  .section-main p {
+    font-size: 18px;
+  }
+
+  .grid-article {
+    grid-template-columns: 1fr;
+  }
+
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .item5 {
+    width: 95%;
+    margin: 25px auto;
+  }
+
+}
+
+
+/* ==========================================
+   RESPONSIVE TABLETTE
+   768px à 1023px
+========================================== */
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+  .Navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .logo {
+    font-size: 38px;
+    margin-left: 0;
+  }
+
+  .navig ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .navig ul li a {
+    font-size: 22px;
+  }
+
+  .Hero {
+    padding: 50px 30px;
+  }
+
+  .h1-fontome {
+    font-size: 38px;
+  }
+
+  .ate {
+    width: 80%;
+  }
+
+  .grid-article {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .item5 {
+    width: 90%;
+  }
+
+  .section-main h2 {
+    text-align: center;
+  }
+
+}
+
+
+/* ==========================================
+   PETITS PC
+   1024px à 1200px
+========================================== */
+
+@media screen and (min-width:1024px) and (max-width:1200px) {
+
+  .grid-article {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .item5 {
+    width: 90%;
+  }
+
+}
